@@ -4,17 +4,9 @@
 }
 
 #modal-trigger-label {
-  background-color: #306bc1;
-  border: none;
-  color: white;
   cursor: pointer;
   cursor: hand;
-  display: inline-block;
-  font-family: 'Akzidenz Grotesk';
-  font-size: 16px;
-  margin-top: 50px;
-  outline: none;
-  padding: 15px 40px;
+  text-decoration: underline;
 }
 
 #modal-trigger:checked ~ #modal-trigger-label {
@@ -101,6 +93,10 @@
   max-width: 350px;
   padding: 15px 25px;
   width: 80%;
+}
+
+#contact-modal form option {
+  color: #306bc1;
 }
 
 #contact-modal form #contact-send {
