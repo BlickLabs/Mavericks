@@ -21,6 +21,10 @@
   background-image: url('../img/background-04.jpg');
 }
 
+#homepage-cover-2 img {
+  max-height: 342px;
+}
+
 .homepage-cover {
   height: 75vh;
   background-attachment: fixed;
@@ -99,12 +103,35 @@
 
 .homepage-diagram-button {
   color: #a5a5a4;
+  cursor: pointer;
+  cursor: hand;
   font-size: 20px;
-  margin-left: 5px;
+  margin-left: 10px;
   margin-top: 10px;
   position: absolute;
   transition: color 0.2s;
   vertical-align: top;
+}
+
+.homepage-diagram-tooltip {
+  background: black;
+  color: white;
+  display: block;
+  font-family: 'Akzidenz Grotesk';
+  font-size: 15px;
+  height:0;
+  margin-top: 20px;
+  overflow: hidden;
+  padding: 0 40px;
+  position: absolute;
+  transition: all 0.2s;
+  width: 275px;
+  z-index: 3;
+}
+
+.homepage-diagram-tooltip.visible {
+  height: auto;
+  padding: 40px;
 }
 
 .homepage-diagram-row:hover .homepage-diagram-button {
