@@ -23,3 +23,19 @@ bower_components/font-awesome/bower.json
 
 bower_components/font-awesome/css/font-awesome.css
 bower_components/font-awesome/css/font-awesome.min.map
+
+bower_components/jquery-validation/src
+bower_components/jquery-validation/build
+bower_components/jquery-validation/.bower.json
+bower_components/jquery-validation/CONTRIBUITING.md
+bower_components/jquery-validation/.Gruntfile.js
+bower_components/jquery-validation/.LICENSE.md
+bower_components/jquery-validation/README.md
+bower_components/jquery-validation/bower.json
+bower_components/jquery-validation/changelog.md
+bower_components/jquery-validation/package.json
+bower_components/jquery-validation/validation.jquery.json
+
+bower_components/jquery-validation/dist/additional-methods.js
+bower_components/jquery-validation/dist/additional-methods.min.js
+bower_components/jquery-validation/dist/jquery-validate.js
